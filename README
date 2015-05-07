@@ -94,3 +94,6 @@ at each time step up to tmax the recording continues without any seperation. so	
 
 Plotting the results 
 --------------------
+
+plotting_cl1.py and plotting_cg1.py are python scripts for plotting the results of E, F and Gamma which are the data from efgh.txt
+the expcted spectra lines are drawn for the special case and need to be adjusted according to the runs. 
