@@ -1,33 +1,41 @@
 
-  -----    values for shell model :
+				INPUT FILE
+
+
+--------------------------
+------   shell model -----
+--------------------------
 
 Number of Shells	30
 
-Minimum scale (k min)	0.03
+Minimum scale (k min)	0.1
 
-Maximum scale (k max)	17305.
+Maximum scale (k max)	1305.
 
 
-  ------   values for setting up HW equations
+----------------------------
+------   HW equations  -----
+----------------------------
 
 C	1.
  
 kappa	1.
 
-musmFac	0.01 (small scale dissipation factor)
+musmFac	0.01 
 
-mubgFac	10. (large scale dissipation factor)
+mubgFac	10. 
 
-forcing 0.0	(additional forcing at the unstable shells)
+forcing 0.0	
 
+---------------------------------------
+------  integration and openMP  -------
+---------------------------------------
 
-
-------    values for integration 
+Num of threads  1
 
 dt	 20.
 
 t max	 150000
-
 
 
 					
