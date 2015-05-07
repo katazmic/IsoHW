@@ -83,6 +83,13 @@ the code will dump on the terminal the values of phi_n and n_n for a given scale
 
 output files
 ------------
++ rslts.txt 
+for each of the N shells:  k_n, phi_n^2, n_n^2 (delimited by tabs) are recorded line after line.. 
+at each time step up to tmax the recording continues without any seperation. so there are tmax/dt*N rows and three columns. 
+
++efgh.txt
+for each of the N shells:  k_n ,  E = phi_n^2*k, F = n_n^2/k, Gamma = imag(conj(phi_n*n_n), and H = real(conj(phi_n*n_n) are recorded line after line..
+at each time step up to tmax the recording continues without any seperation. so	there are tmax/dt*N rows and five columns.	 
 
 
 Plotting the results 
