@@ -1,0 +1,37 @@
+
+  -----    values for shell model :
+
+Number of Shells	30
+
+Minimum scale (k min)	0.03
+
+Maximum scale (k max)	17305.
+
+
+  ------   values for setting up HW equations
+
+C	1.
+ 
+kappa	1.
+
+musmFac	0.01 (small scale dissipation factor)
+
+mubgFac	10. (large scale dissipation factor)
+
+forcing 0.0	(additional forcing at the unstable shells)
+
+
+
+------    values for integration 
+
+dt	 20.
+
+t max	 150000
+
+
+
+					
+                                      end of file
+
+
+
