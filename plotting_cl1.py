@@ -3,7 +3,7 @@ import math
 import scipy as sp
 import numpy as np
 
-data = np.loadtxt('efgh_k1C0p1.txt');
+data = np.loadtxt('efgh.txt');
 #dataC = np.loadtxt('rsltsZF.txt');
 
 N = 30;
